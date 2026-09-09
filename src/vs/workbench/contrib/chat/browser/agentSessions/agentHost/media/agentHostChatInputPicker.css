@@ -35,8 +35,9 @@
 .agent-host-chat-input-picker-slot span.action-label {
 	display: inline-flex;
 	align-items: center;
-	height: 16px;
-	padding: 3px 8px;
+	box-sizing: border-box;
+	height: 22px;
+	padding: 0 var(--vscode-spacing-size60);
 	border-radius: 4px;
 	color: var(--vscode-icon-foreground);
 }
